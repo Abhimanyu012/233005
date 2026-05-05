@@ -2,6 +2,9 @@
   "name": "logging_middleware",
   "version": "1.0.0",
   "main": "log.js",
+  "scripts": {
+    "check": "node -e \"require('./log');\""
+  },
   "dependencies": {
     "axios": "^1.6.0",
     "dotenv": "^16.0.0"
