@@ -20,7 +20,9 @@ Endpoints:
 Run:
 1. Add `TOKEN` in `.env`
 2. `npm install`
-3. `npm run dev`
+3. Start the server:
+   - For development (with hot-reload): `npm run dev`
+   - For production: `npm start`
 
 ## Output Example
 

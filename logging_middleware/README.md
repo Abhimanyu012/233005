@@ -15,6 +15,13 @@ async function run() {
 Required env variable:
 - `TOKEN`
 
+## Running Checks
+
+You can verify the module loads correctly by running:
+```bash
+npm run check
+```
+
 ## Error Handling / Validation
 
 If required fields are missing in the request, the evaluation server will return a 400 response with the validation errors, as shown below:
