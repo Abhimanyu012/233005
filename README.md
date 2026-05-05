@@ -1,4 +1,4 @@
-# Backend Evaluation Workspace
+# Backend
 
 This is the root workspace containing all modules and services for the evaluation project.
 
