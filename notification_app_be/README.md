@@ -21,3 +21,7 @@ Run:
 1. Add `TOKEN` in `.env`
 2. `npm install`
 3. `npm run dev`
+
+## Output Example
+
+![Notifications Priority Endpoint Output](./Screenshot%20from%202026-05-05%2015-29-05.png)

@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scheduler:start": "npm --prefix vehicle_maintence_scheduler run start",
+    "scheduler:dev": "npm --prefix vehicle_maintence_scheduler run dev",
+    "notification:start": "npm --prefix notification_app_be run start",
+    "notification:dev": "npm --prefix notification_app_be run dev",
+    "logging:check": "npm --prefix logging_middleware run check"
   },
   "keywords": [],
   "author": "",

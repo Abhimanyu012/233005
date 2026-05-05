@@ -14,3 +14,9 @@ async function run() {
 
 Required env variable:
 - `TOKEN`
+
+## Error Handling / Validation
+
+If required fields are missing in the request, the evaluation server will return a 400 response with the validation errors, as shown below:
+
+![Postman Validation Error Response](Screenshot%20from%202026-05-05%2015-23-02.png)
